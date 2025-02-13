@@ -82,7 +82,7 @@ header {
 
 .des-rocs-title {
   max-width: 1000px;
-  width: 70%;
+  width: 100%;
   margin: 0 auto;
   display: flex;
   justify-content: center;
@@ -91,7 +91,7 @@ header {
 
 .header-image {
   /*This is the image with Des Rocs holding the guitar above his head*/
-  width: 68%;
+  width: 100%;
   max-width: 1000px;
   margin: 0 auto;
   display: flex;
@@ -239,4 +239,15 @@ footer {
 /*Link elements*/
 a {
   color: #f5f5f5;
+}
+a:visited {
+  color: #f5f5f5;
+}
+
+a:hover {
+  color: #fcca5e;
+}
+
+a:active {
+  color: #fcca5e;
 }
