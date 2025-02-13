@@ -20,7 +20,6 @@
   <link href="https://fonts.googleapis.com/css2?family=Gabarito:wght@400..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=REM:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
   <!--Favicon links-->
-  <!--Don't forget to upload the folder into GitHub-->
   <link rel="icon" type="image/png" href="/des-rocs-favicon/favicon-96x96.png" sizes="96x96" />
   <link rel="icon" type="image/svg+xml" href="/des-rocs-favicon/favicon.svg" />
   <link rel="shortcut icon" href="/des-rocs-favicon/favicon.ico" />
@@ -31,9 +30,15 @@
 </head>
 
 <body>
+  <main id="main">
   <header>
-    <img src="https://snipboard.io/DiOXLP.jpg" alt="Des Rocs holds his guitar above his head." class="header-image">
+    <div id="img-div">
+    <img src="https://snipboard.io/DiOXLP.jpg" alt="Des Rocs holds his guitar above his head." class="header-image" id="image">
+    <div id="img-caption">
     <img src="https://snipboard.io/lA3GsJ.jpg" alt="Des Rocs" class="des-rocs-title">
+    <p id="title">Des Rocs</p>
+    </div>
+    </div>
   </header>
 
   <div class="quote-block">
@@ -41,8 +46,9 @@
     <p class="quote-author">— Des Rocs</p>
   </div>
 
+
   <div class="wrapper">
-    <div class="text-container">
+    <div class="text-container" id="tribute-info"> 
       <p class="intro-text yellow-text">Danny Rocco, also known as <span class="oswald-bold">Des Rocs</span>, is an American rock musician from Rockville Centre, New York. Des Rocs is a solo project produced and led by Danny Rocco. When touring, Rocco is joined by his long time friends and bandmates, William Tully and Eric Mendelsohn.</p>
       <p class="orange-text">Rocco began performing in bars and basements from as early as 13 years old. His first band Secret Weapons opened for bands such as Panic! at the Disco, Fall Out Boy, and Weezer. The band eventually went on permanent hiatus after bandmate Gerry Lang's health deteriorated.</p>
       <p class="cyan-text">He released his first EP, <span class="album-title">Let The Vultures In</span>, in <span class="date">November 2018</span>. This EP includes his most-played song, “Let Me Live / Let Me Die”, which garnered much attention from music blogs and radio stations. It was followed up by the <span class="album-title">Martyr Parade</span> EP in <span class="date">2019</span>.</p>
@@ -58,12 +64,13 @@
     </div>
   </div>
 
-  <footer>
+  <footer >
     <img src="https://snipboard.io/D47nij.jpg" alt="Des Rocs logo" class="logo">
-    <p class="website-link"><a href="https://desrocs.com/" target="_blank">DesRocs.com</a></p>
+    <p class="website-link" ><a href="https://desrocs.com/" target="_blank" id="tribute-link">DesRocs.com</a></p>
     <p class="socials-links"><a href="https://desrocs.com/#tour" target="_blank">Tour</a> | <a href="https://shop.desrocs.com/" target="_blank">Store</a> | <a href="https://www.youtube.com/@DesRocs" target="_blank">YouTube</a> | <a href="https://open.spotify.com/artist/2kO6mP0olFJGGh6kvUdNC8" target="_blank">Spotify</a> | <a href="https://www.instagram.com/iamdesrocs" target="_blank">Instagram</a></p>
   </footer>
-  <!-- Don't forget to update the a elements with hover/visited/etc -->
+  </main>
+ 
 </body>
 
 </html>

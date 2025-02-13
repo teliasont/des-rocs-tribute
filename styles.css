@@ -80,13 +80,20 @@ header {
   margin: 0 auto;
 }
 
-.des-rocs-title {
+.des-rocs-title{
   max-width: 1000px;
   width: 100%;
   margin: 0 auto;
   display: flex;
   justify-content: center;
   padding-top: 1em;
+}
+#title{
+  font-size: 0px;
+}
+#image{
+  display: block;
+  max-width: 100%;
 }
 
 .header-image {
