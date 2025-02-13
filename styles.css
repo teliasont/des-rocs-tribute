@@ -1,0 +1,242 @@
+/* CSS Reset from Josh Comeau */
+/* 1. Use a more-intuitive box-sizing model */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* 2. Remove default margin */
+* {
+  margin: 0;
+}
+
+body {
+  /* 3. Add accessible line-height */
+  line-height: 1.5;
+  /* 4. Improve text rendering */
+  -webkit-font-smoothing: antialiased;
+}
+
+/* 5. Improve media defaults */
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+/* 6. Inherit fonts for form controls */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* 7. Avoid text overflows */
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+/* 8. Improve line wrapping */
+p {
+  text-wrap: pretty;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-wrap: balance;
+}
+
+/*
+  9. Create a root stacking context
+*/
+#root,
+#__next {
+  isolation: isolate;
+}
+
+/** --My CSS begins-- **/
+/* Body elements */
+body {
+  background-color: #3e3e3e;
+  font-size: 16px;
+}
+
+/* Header elements */
+header {
+  margin: 0 auto;
+}
+
+.des-rocs-title {
+  max-width: 1000px;
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  padding-top: 1em;
+}
+
+.header-image {
+  /*This is the image with Des Rocs holding the guitar above his head*/
+  width: 68%;
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+/* Main text elements */
+.wrapper {
+  width: 70%;
+  max-width: 880px;
+  margin: 0 auto;
+  border-left: 2.5em solid #d3c2c6;
+  border-right: 2.5em solid #d3c2c6;
+  background: #292929;
+  padding-top: 0.5em;
+  padding-bottom: 2.5em;
+}
+.text-container {
+  max-width: 600px;
+  width: 68%;
+  margin: 0 auto;
+}
+
+/*Quote Block elements*/
+.quote-block {
+  background: #171819;
+  padding-bottom: 0;
+  padding-top: 0;
+  margin: 0;
+  width: 100%;
+  font-family: REM;
+  color: #fff0f4;
+  text-align: center;
+  text-transform: uppercase;
+  line-height: normal;
+  text-indent: 0;
+}
+.quote {
+  font-size: 2.5em;
+  font-style: italic;
+  font-weight: 700;
+  padding-top: 1.875em;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  width: 70%;
+  max-width: 880px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.quote-author{
+  color: #FFF0F4;
+font-size: 1.25;
+font-style: normal;
+font-weight: 100;
+  padding-top: 0.5em;
+  padding-bottom: 1.875em;
+}
+
+/*Paragraph elements*/
+p {
+  font-family: Open Sans;
+  font-size: 1em;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  padding-top: 1.75em;
+  text-indent: 2em;
+}
+.intro-text {
+  font-family: Oswald;
+  font-size: 1.25em;
+  font-weight: 400;
+  padding-top: 1em;
+}
+.oswald-bold {
+  font-family: Oswald;
+  font-size: 1.25em;
+  font-weight: 700;
+}
+.orange-text {
+  color: #f5a57a;
+}
+.cyan-text {
+  color: #8bcdc7;
+}
+.pink-text {
+  color: #e194af;
+}
+.yellow-text {
+  color: #fcca5e;
+}
+.album-title {
+  font-style: italic;
+  font-weight: 800;
+}
+.date {
+  font-weight: 700;
+}
+.tour {
+  font-style: italic;
+}
+.song-title {
+  font-weight: 725;
+}
+
+/*Footer elements*/
+footer {
+  background: #151618;
+  padding-bottom: 1.25em;
+  padding-top: 1.25em;
+  margin: 0;
+}
+.website-link {
+  color: #f5f5f5;
+  text-align: center;
+  font-family: Oswald;
+  font-size: 1.5em;
+  font-weight: 500;
+  text-transform: uppercase;
+  text-indent: 0;
+  padding-top: 0;
+  margin-top: 1em;
+  margin-bottom: 0;
+}
+.socials-links {
+  margin-top: 0;
+  color: #f5f5f5;
+  font-family: Oswald;
+  font-size: 1.25em;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-align: center;
+  text-indent: 0;
+}
+.logo {
+  width: 3%;
+  max-width: 60px;
+  min-width: 40px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+/*Link elements*/
+a {
+  color: #f5f5f5;
+}
