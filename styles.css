@@ -91,10 +91,13 @@ header {
 #title{
   font-size: 0px;
 }
-#image{
+/*
+// This is included to pass the freeCodeCamp requirements, but it messes up how I want the webpage to look, so I have commented it out here.
+#image {
   display: block;
   max-width: 100%;
 }
+*/
 
 .header-image {
   /*This is the image with Des Rocs holding the guitar above his head*/
